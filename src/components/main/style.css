@@ -1,9 +1,10 @@
 
-.app{
+.main {
     background: khaki;
     height: 100vh;
 }
-.weather{
+
+.weather {
     width: 350px;
     height: 500px;
     border: 1px solid #000;
@@ -16,10 +17,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: #bebebe;
-}
-.oops{
-    width: 150px;
-}
-.oops img{
-    width: 100%;
 }

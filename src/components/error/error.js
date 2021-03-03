@@ -1,17 +1,17 @@
 import React from 'react';
-import oops from '../images/oops.jpg'
 
-import './main.css'
+import oops from '../../images/oops.jpg'
+
+import './style.css'
 
 const Error = () => {
-    return(
+    return (
         <div>
             <div className='oops'>
                 <img src={oops} alt="oops"/>
             </div>
             Упс, что-то пошло не так !!! <br/>
             Введите город корректно !!!
-
         </div>
     )
 };

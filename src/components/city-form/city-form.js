@@ -12,7 +12,7 @@ const CityForm = ({weatherData, setWeatherData, setCity, city}) => {
                 setWeatherData(data);
             })
             .catch(() => {
-               setWeatherData({...weatherData, error: true})
+                setWeatherData({...weatherData, error: true})
             })
     };
 
@@ -20,7 +20,7 @@ const CityForm = ({weatherData, setWeatherData, setCity, city}) => {
         setCity(e.target.value)
     };
 
-    return(
+    return (
         <div>
             <form onSubmit={getWeatherData} action="" className='d-flex justify-between'>
                 <input type="text" placeholder='Введите город' onChange={inputHandler} className="form-control"/>
